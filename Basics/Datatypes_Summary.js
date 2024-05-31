@@ -30,3 +30,25 @@ console.log(typeof bigNumber); // bigint
 console.log(typeof score); // object
 console.log(typeof myfunction); // function (object function)
 console.log(typeof heros); // object 
+
+// **********************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "hiteshchoudharydotcom"
+let anothername = myYoutubeName
+anothername = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gamil.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
